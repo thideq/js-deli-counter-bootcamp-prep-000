@@ -8,10 +8,13 @@ function takeANumber(line,myName) {
   return myString;
 }
 function nowServing(line) {
+  var myString = '';
   if (line.length===0) {
-    return 'There is nobody waiting to be served!'
+    myString = 'There is nobody waiting to be served!'
   }
-  else {return 'Currently serving ' + line.shift() + '.'}
+  else {myString = 'Currently serving ' + line.shift() + '.'
+  }
+  return myString
 }
 
 function currentLine(Line) {
