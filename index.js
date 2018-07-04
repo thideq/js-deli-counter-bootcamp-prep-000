@@ -4,14 +4,14 @@ var myName = 'my name';
 function takeANumber(katzDeliLine,myName) {
   var myString = '';
   katzDeliLine.push(myName)
-  myString = "Welcome, " + myName + ". You are number " + (katzDeliLine.length) + " in line";
+  myString = "Welcome, " + myName + ". You are number " + (katzDeliLine.length) + " in line.";
   return myString;
 }
 function nowServing() {
   if (katzDeliLine==[]) {
     return 'There is nobody waiting to be served!'
   }
-  else return katzDeliLine.pop();
+  else {return katzDeliLine.pop()}
 }
 
 function currentLine() {
