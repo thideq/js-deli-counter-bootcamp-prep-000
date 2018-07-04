@@ -25,9 +25,10 @@ function currentLine(line) {
   }
   else {
     currentlineReturn = 'The line is currently: '
-    for (i=0; i<line.length; i++) {
-      currentlineReturn = currentlineReturn + (i+1) +'. ' + line[i]
+    for (i=0; i<line.length-1; i++) {
+      currentlineReturn = currentlineReturn + (i+1) +'. ' + line[i] + ', '
     }
+    currentlineReturn = currentlineReturn + (line.length+1) + '. ' + line.pop()
   
   }
   return currentlineReturn;
