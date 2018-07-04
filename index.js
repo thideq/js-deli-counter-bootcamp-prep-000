@@ -28,7 +28,7 @@ function currentLine(line) {
     for (i=0; i<line.length-1; i++) {
       currentlineReturn = currentlineReturn + (i+1) +'. ' + line[i] + ', '
     }
-    currentlineReturn = currentlineReturn + (line.length+1) + '. ' + line.pop()
+    currentlineReturn = currentlineReturn + (line.length) + '. ' + line.pop()
   
   }
   return currentlineReturn;
