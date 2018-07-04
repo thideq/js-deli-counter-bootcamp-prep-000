@@ -7,3 +7,6 @@ function takeANumber(katzDeliLine,myName) {
   myString = "you are " + (katzDeliLine.length) + " in line";
   return myString;
 }
+function nowServing() {
+  
+}
