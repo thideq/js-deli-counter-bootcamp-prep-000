@@ -9,7 +9,16 @@ function takeANumber(katzDeliLine,myName) {
 }
 function nowServing() {
   if (katzDeliLine==[]) {
-    return ''
+    return 'There is nobody waiting to be served!'
   }
-  return 
+  else return katzDeliLine.pop();
+}
+
+function currentLine() {
+  var line = katzDeliLine;
+  var currentlineReturn = '';
+  if (line==[]) {
+    currentlineReturn=''
+  }
+  return
 }
