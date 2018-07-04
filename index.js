@@ -8,10 +8,10 @@ function takeANumber(line,myName) {
   return myString;
 }
 function nowServing(line) {
-  if (line==[]) {
+  if (line.length===0) {
     return 'There is nobody waiting to be served!'
   }
-  else {return 'currently serving ' + line.shift() + '.'}
+  else {return 'Currently serving ' + line.shift() + '.'}
 }
 
 function currentLine(Line) {
