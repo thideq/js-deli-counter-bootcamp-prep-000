@@ -26,7 +26,7 @@ function currentLine(line) {
   else {
     currentlineReturn = 'The line is currently: '
     for (i=0; i<line.length; i++) {
-      currentlineReturn = currentlineReturn + i +'. ' + nowServing(line)
+      currentlineReturn = currentlineReturn + (i+1) +'. ' + line[i]
     }
   
   }
