@@ -1,9 +1,9 @@
 var katzDeliLine = [];
-var name = 'my name'
+var myName = 'my name';
 
-function takeANumber(katzDeliLine,name) {
+function takeANumber(katzDeliLine,myName) {
   var myString = '';
-  katzDeliLine.push(name)
+  katzDeliLine.push(myName)
   myString = "you are" + (katzDeliLine.length) + "th in line";
   return myString;
 }
