@@ -3,7 +3,7 @@ var myName = 'my name';
 
 function takeANumber(line,myName) {
   var myString = '';
-  line.unshift(myName)
+  line.push(myName)
   myString = "Welcome, " + myName + ". You are number " + (line.length) + " in line.";
   return myString;
 }
