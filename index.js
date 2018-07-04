@@ -20,7 +20,7 @@ function nowServing(line) {
 function currentLine(line) {
   var i = 0;
   var currentlineReturn = '';
-  if (line==[]) {
+  if (line.length===0) {
     currentlineReturn='The line is currently empty.'
   }
   else {
