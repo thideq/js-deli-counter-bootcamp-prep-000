@@ -8,5 +8,8 @@ function takeANumber(katzDeliLine,myName) {
   return myString;
 }
 function nowServing() {
-  
+  if (katzDeliLine==[]) {
+    return ''
+  }
+  return 
 }
