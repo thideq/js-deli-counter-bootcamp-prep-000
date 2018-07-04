@@ -3,7 +3,7 @@ var myName = 'my name';
 
 function takeANumber(line,myName) {
   var myString = '';
-  line.shift(myName)
+  line.unshift(myName)
   myString = "Welcome, " + myName + ". You are number " + (line.length) + " in line.";
   return myString;
 }
@@ -11,7 +11,7 @@ function nowServing(line) {
   if (line==[]) {
     return 'There is nobody waiting to be served!'
   }
-  else {return 'currently serving ' + line.unshift() + '.'}
+  else {return 'currently serving ' + line.shift() + '.'}
 }
 
 function currentLine(Line) {
