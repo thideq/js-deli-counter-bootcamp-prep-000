@@ -10,6 +10,9 @@ function takeANumber(katzDeliLine,myName) {
     else if (katzDeliLine.length==2) {
     myString = "you are" + (katzDeliLine.length) + "nd in line";
   }
+    else if (katzDeliLine.length==3) {
+    myString = "you are" + (katzDeliLine.length) + "rd in line";
+  }
   else {myString = "you are " + (katzDeliLine.length) + "th in line";}
   return myString;
 }
